@@ -15,7 +15,18 @@
             <asp:ListItem>Recreational</asp:ListItem>
         </asp:DropDownList>
         <br />
+        <asp:Label ID="Label3" runat="server" Text="Goal Duration"></asp:Label>
+        <asp:DropDownList ID="DropDownList2" runat="server">
+            <asp:ListItem>5 Yr</asp:ListItem>
+            <asp:ListItem>1 Yr</asp:ListItem>
+            <asp:ListItem>9</asp:ListItem>
+            <asp:ListItem>6</asp:ListItem>
+            <asp:ListItem Value="3">3 Month</asp:ListItem>
+            <asp:ListItem Value="1">1 Month</asp:ListItem>
+        </asp:DropDownList>
         <br />
         <asp:Button ID="btnSaveGoal" runat="server" Text="Save Goal" />
+        <br />
+        <br />
     </asp:Panel>
 </asp:Content>
