@@ -17,8 +17,8 @@
         <br />
         <asp:Label ID="Label3" runat="server" Text="Goal Duration"></asp:Label>
         <asp:DropDownList ID="ddlGoalDuration" runat="server">
-            <asp:ListItem>5 Yr</asp:ListItem>
-            <asp:ListItem>1 Yr</asp:ListItem>
+            <asp:ListItem Value="5">5 Yr</asp:ListItem>
+            <asp:ListItem Value="1">1 Yr</asp:ListItem>
             <asp:ListItem>9</asp:ListItem>
             <asp:ListItem>6</asp:ListItem>
             <asp:ListItem Value="3">3 Month</asp:ListItem>
