@@ -308,11 +308,6 @@
     <Content Include="Views\web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\goals\Create.cshtml" />
-    <Content Include="Views\goals\Delete.cshtml" />
-    <Content Include="Views\goals\Details.cshtml" />
-    <Content Include="Views\goals\Edit.cshtml" />
-    <Content Include="Views\goals\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -446,7 +441,7 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\GoalsController.cs" />
+    <Compile Include="Controllers\Goals_CRUDController.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -512,6 +507,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\goals\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
