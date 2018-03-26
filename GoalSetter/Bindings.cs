@@ -1,8 +1,6 @@
-﻿using Ninject.Modules;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using GoalSetter.Service;
+using GoalSetter.Service.Interface;
+using Ninject.Modules;
 
 namespace GoalSetter
 {
@@ -12,6 +10,7 @@ namespace GoalSetter
         public override void Load()
         {
             Bind<goalsetterEntities>().To<goalsetterEntities>();
+            Bind<IGoalsService_CRUD>().To<GoalsService_CRUD>();
         }
     }
 }

@@ -9,6 +9,6 @@ namespace GoalSetter.DTO
     {
         public string Name { get; set; }
         public string Type { get; set; }
-        public int Duration { get; set; }
+        public string Duration { get; set; }
     }
 }

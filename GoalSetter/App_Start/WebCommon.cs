@@ -62,6 +62,7 @@ namespace GoalSetter.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            kernel.Load(new Bindings());
         }        
     }
 }
